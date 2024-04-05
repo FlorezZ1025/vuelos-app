@@ -7,4 +7,20 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'vuelos-app';
+  
+  menu = [
+    {name:'Inicio',url:"#"},
+    {name:'Mis vuelos',url:"#"},
+    {name:'Contáctanos',url:"#"},
+    {name:'Iniciar Sesión',url:'#'}
+  ]
+  roundTyps = [
+   'Ida y vuelta',
+    'Solo ida' 
+  ]
+
+  travelClass = [
+    'Económica',
+    'Premium'
+  ]
 }

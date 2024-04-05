@@ -1,1 +1,12 @@
 /* You can add global styles to this file, and also import other style files */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Helvetica, sans-serif;
+    background: linear-gradient(#d5c6c6, #b8b4b4, #d2cccc);
+    height: 100vh;
+}
+
